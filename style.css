@@ -1,0 +1,119 @@
+body {
+
+}
+
+header {
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.logo-header {
+    height: 50px;
+    width: auto;
+}
+
+.links-header {
+
+}
+
+
+
+.a-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.a-section-left {
+
+}
+
+button .sign-up-top {
+
+}
+
+.sign-up-top {
+
+}
+
+.picture-a {
+    height: 100px;
+    width: auto;
+}
+
+
+
+.b-section {
+    background-color: white;
+}
+
+.b-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-section-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-image-and-subtext {
+
+}
+
+.b-image-formatting {
+    height: 100px;
+    width: auto;
+}
+
+.b-subtext-formatting {
+
+}
+
+
+
+.c-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c-section-top {
+
+}
+
+.c-section-bottom {
+
+}
+
+
+
+.d-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-section-left {
+    background-color: blue;
+}
+
+button .sign-up-bottom {
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
