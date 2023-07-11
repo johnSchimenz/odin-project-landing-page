@@ -1,4 +1,6 @@
 body {
+    width: 900px;
+    box-sizing: content-box;
 }
 
 
@@ -8,7 +10,7 @@ header {
     justify-content: space-between;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 16px;
+    padding: 16px 32px;
 }
 
 .logo-header {
@@ -32,6 +34,7 @@ li {
 
 }
 
+
 .a-section {
     background-color: #1F2937;
     display: flex;
@@ -41,7 +44,11 @@ li {
 }
 
 .a-section-left {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    gap: 16px;
 }
 
 .a-section-title {
@@ -61,6 +68,7 @@ button.sign-up-top {
     border: none;
     border-radius: 8px;
     padding: 4px 16px;
+    width: 100px;
 }
 
 .picture-a {
@@ -82,17 +90,21 @@ button.sign-up-top {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    padding: 16px;
 }
 
 .b-section-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 32px;
+    padding: 16px;
 }
 
 .b-image-and-subtext {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .b-image-formatting {
@@ -101,7 +113,7 @@ button.sign-up-top {
 }
 
 .b-subtext-formatting {
-
+    color: #1F2937;
 }
 
 
@@ -112,7 +124,6 @@ button.sign-up-top {
     flex-direction: column;
     align-items: center;
     padding: 16px;
-
 }
 
 .c-section-top {
@@ -125,8 +136,8 @@ button.sign-up-top {
     font-weight: bold;
     font-size: 24px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    width: 750px; /* Might need to change this depending on width of viewing window */
 }
 
 
@@ -137,10 +148,13 @@ button.sign-up-top {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    margin: 32px;
+    gap: 32px;
+    border-radius: 8px;
 }
 
 .d-section-left {
-
+    padding: 16px 0px;
 }
 
 .d-section-header {
@@ -160,6 +174,7 @@ button.sign-up-top {
     border: 1px solid #F9FAF8;
     border-radius: 8px;
     padding: 4px 16px;
+    width: 100px;
 }
 
 
